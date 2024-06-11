@@ -79,6 +79,11 @@ body,html {
     border-radius: 0px;
     height:80vh;
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://images.unsplash.com/photo-1641545423876-3d7dc842132c?q=80&w=3747&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    z-index: -10;
     background-size:cover;
     background-repeat:no-repeat;
     color:white;
